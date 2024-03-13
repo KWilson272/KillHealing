@@ -1,0 +1,14 @@
+# WorldGuard flag settings
+WorldGuard:
+  FlagName: "heal-on-kill"
+  FlagDefault: false
+
+# Messages used after a player is healed.
+# The following placeholders are available:
+# - {killer} is the name of the killer
+# - {victim} is the name of the victim
+# - {cur_health} is the amount of health the killer had when they got the kill
+# - {max_health} is the max amount of health the killer can have
+Translation:
+  KillerMessage: "&aFor killing &2{victim}&a, your health has been restored. You were at &4(&c{cur_health}&4/&c{max_health}&4)"
+  VictimMessage: "&aYou were killed by &2{killer}&a. Their health was at &4(&c{cur_health}&4/&c{max_health}&4)"

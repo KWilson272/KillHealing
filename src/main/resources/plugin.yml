@@ -1,0 +1,7 @@
+name: KillHealing
+author: KWilson272
+main: me.kwilson272.killhealing.KillHealing
+version: 1.0.0
+api-version: 1.20
+description: Heals a player whenever they kill another player.
+depend: [WorldGuard]
