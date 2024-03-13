@@ -7,5 +7,6 @@ want players to be healed in.
 To install KillHealing, simply place the jar in your server's `/plugins/` folder.
 
 # Compatability
-This plugin was tested and developed on `spigot 1.20.1`, however it should work on most versions 
-at or above `spigot 1.16`
+This plugin was tested and developed on the following versions. It is likely it will work on older versions, but not guaranteed.
+- Spigot `1.20.1` should work at or above `1.16` assuming compatible WorldGuard versions
+- WorldGuard `7.0.9`
