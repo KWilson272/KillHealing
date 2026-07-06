@@ -29,7 +29,7 @@ public class KillListener implements Listener {
         HealEvent healEvent = new HealEvent(killer, victim);
         Bukkit.getPluginManager().callEvent(healEvent);
         if (!healEvent.isCancelled()) {
-            double maxHealth = killer.getAttribute(Attribute.GENERIC_MAX_HEALTH).getValue();
+            double maxHealth = killer.getAttribute(Attribute.MAX_HEALTH).getValue();
             double curHealth = killer.getHealth();
             String sMaxHealth = String.format("%.1f", maxHealth);
             String sCurHealth = String.format("%.1f", curHealth);
